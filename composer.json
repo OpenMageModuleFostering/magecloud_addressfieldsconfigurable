@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Magecloud_Addressfieldsconfigurable",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License",
+    "homepage": "",
+    "description": "Makes address fields (e.g. state and telephone) not required. This can be configured in adminpanel. ",
+    "authors": [
+    {
+        "name": "magecloud",
+        "email": "abhinav@magecloud.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

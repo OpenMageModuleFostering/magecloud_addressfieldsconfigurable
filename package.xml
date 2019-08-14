@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Magecloud_Addressfieldsconfigurable</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/gpl-license.php">GNU General Public License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Makes address fields (e.g. state and telephone) not required. This can be configured in adminpanel. </summary>
+    <description>Makes address fields (e.g. state and telephone) not required. This can be configured in adminpanel. </description>
+    <notes>Makes address fields (e.g. state and telephone) not required. This can be configured in adminpanel.</notes>
+    <authors><author><name>magecloud</name><user>magecloud</user><email>abhinav@magecloud.de</email></author></authors>
+    <date>2013-07-29</date>
+    <time>11:27:22</time>
+    <contents><target name="magecommunity"><dir name="Magecloud"><dir name="Notmandatory"><dir name="Helper"><file name="Data.php" hash="232d93d0f94168f194fa5e04e3bcfd9f"/></dir><dir name="Model"><dir name="Address"><file name="Abs.php" hash="605c03a2b494a8948b004823f1071f3a"/><file name="Abstract.php" hash="b4050a74a42aab182a8fb2738f5b6499"/><file name="Mandatory.php" hash="60c063381b16bd8914d48c726dc32187"/></dir><dir name="Mysql4"><file name="Setup.php" hash="834f3cab23159941c3459adf9912ff31"/></dir><dir name="Quote"><file name="Address.php" hash="6c7d31baffbb1a5ed8a27e7d51581e21"/></dir></dir><dir name="etc"><file name="config.xml" hash="c47d6c815a63cfedcf7fb04d22676de5"/><file name="system.xml" hash="d8e74a964c82c88170cd3e7af644cd75"/></dir><dir name="sql"><dir name="notmandatory_setup"><file name="mysql4-install-1.0.0.php" hash="6800c948902b4de294f52453279eca85"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magecloud_Notmandatory.xml" hash="90e91b221002ed400e0c760a684b7c0f"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="checkout"><dir name="onepage"><file name="billing.phtml" hash="c2135cd99072a5f7dde4b33f16711815"/><file name="shipping.phtml" hash="37a804c6f64714c8d512d1b424acd235"/></dir></dir><dir name="customer"><dir name="Address"><file name="edit.phtml" hash="14946a20f481235ca203aac67c1e934c"/></dir></dir><dir name="persistent"><dir name="checkout"><dir name="onepage"><file name="billing.phtml" hash="c2135cd99072a5f7dde4b33f16711815"/><file name="shipping.phtml" hash="37a804c6f64714c8d512d1b424acd235"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
